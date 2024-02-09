@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="jalla"></div>
+
+    <button onclick="set16()">nummer 16</button>
+    <button onclick="set47()">nummer 47</button>
+    
+<script>
+
+
+var diven = document.getElementById('jalla')
+var nummer = 0;
+
+
+function set16(){
+    nummer = 16
+    diven.innerHTML = nummer;
+}
+
+function set47(){
+    nummer = 47
+    diven.innerHTML = nummer;
+}
+
+
+</script>
+
+
+<div id="jalla2"></div>
+
+<button onclick="set162(15)">nummer 16</button>
+<button onclick="set162(46)">nummer 47</button>
+
+<button onclick="økNummer()">øk med 1</button>
+
+
+<script>
+var diven2 = document.getElementById('jalla2')
+var nummer2 = 0;
+
+
+function set162(valgtnum){
+nummer2 = valgtnum
+diven2.innerHTML = nummer2;
+}
+
+function set472(){
+nummer2 = 47
+diven2.innerHTML = nummer2;
+}
+function økNummer(){
+    nummer2++;
+    diven2.innerHTML = nummer2;
+    
+}
+
+
+</script>
+
+</body>
+</html>
